@@ -2,8 +2,8 @@
 let a = 4,
     b = 0;
 
-let c = ++a;
-let d = b++;
+let c = ++a; // c = 5, a = 5
+let d = b++; // d = 0, b = 1
 console.log('a равно: ', a);
 console.log('b равно: ', b);
 console.log('c равно: ', c);
@@ -14,8 +14,8 @@ console.log('d равно: ', d);
 let e = 3;
 let f = 2;
 
-let x = 1 + (e += 2);
-let y = 1 + (f *= 2);
+let x = 1 + (e += 2); // x = 6, e = 5
+let y = 1 + (f *= 2); // y = 5, f = 4
 console.log('e равно: ', e);
 console.log('f равно: ', f);
 console.log('x равно: ', x);
